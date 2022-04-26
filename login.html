@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <style>
+        body{
+            background: #000;
+            background: linear-gradient(to left, #1a3c7d, #000221);
+        }
+        .bg{
+            background-image: url(img/LogovimerDark3.jpg);
+            background-position: center center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar 2 -->
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-nr">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white-50" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50" href="formulario.html">Registrarse</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light">Ingresar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- LOGIN - L -->
+    <div class="container w-75 bg-black mt-5 mb-0 rounded shadow">
+        <div class="row align-items-lg-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+                      
+            </div>
+            <div class="col text-light p-5 rounded-end">
+                <div class="text-end"><a href="index.html">
+                    <img src="/img/Logovimer2.jpg" width="48" alt=""></a>
+                </div>
+                <h2 class="text-center"><i class="bi bi-person-circle"></i></h2>
+                <h2 class="fw-bold text-center pb-4">Bienvenido</h2>
+
+                <!-- LOGIN  - R -->
+
+                <form action="#">
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" name="email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" name="email">
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" name="connected" class="form-check-input" id="">
+                        <label for="connected" class="form-check-label">Mantenerme conectado</label>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Iniciar Sesíon</button>
+                    </div>
+
+                    <div class="my-3">
+                        <span>No tienes cuenta? <a href="formulario.html" class="text-decoration-none">Registrate</a></span><br>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    
+    <footer class="container-fluid py-4 bg-nr text-center text-light">
+        <p>&copy; Copyright 2022 - Vimer</p>
+    </footer>
+</body>
+</html>
